@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0dip" android:textStyle="bold" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/dialog_font_warining_title_margin" android:text="@string/dialog_font_warining_title" />
+    <View android:background="#ffdddddd" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+    <TextView android:textSize="16.0dip" android:id="@id/waring_information" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/dialog_font_warining_content_margin" android:text="@string/dialog_font_warining_content" />
+    <CheckBox android:textSize="16.0dip" android:id="@id/showagain" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dialog_font_warining_checkbox_margin_left" android:layout_marginBottom="@dimen/dialog_font_warining_checkbox_margin_bottom" android:checked="false" android:text="@string/dialog_font_warining_ck_information" />
+    <View android:background="#ffdddddd" android:layout_width="fill_parent" android:layout_height="@dimen/dialog_font_warining_view_height" />
+    <TextView android:textSize="18.0dip" android:textStyle="bold" android:gravity="center" android:id="@id/ok_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/dialog_font_warining_checkbox_margin_bottom" android:text="@string/dialog_font_warining_ok" />
+</LinearLayout>
